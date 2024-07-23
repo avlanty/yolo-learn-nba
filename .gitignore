@@ -23,12 +23,12 @@ var/
 wheels/
 share/python-wheels/
 *.egg-info/
-videos/
+videos/*.mp4
 out_videos/
 runs/
 stubs/
 training/
-models/
+models/*.pt
 .installed.cfg
 *.egg
 MANIFEST
