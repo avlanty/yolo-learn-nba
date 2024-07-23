@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
-model = YOLO('yolov9e')
+model = YOLO('models/best.pt')
 
-results = model.train('videos/murraygw.mp4', save=True)
+results = model.predict('videos/murraygw.mp4', save=True)
 
 print(results[0])

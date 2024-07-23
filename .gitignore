@@ -28,6 +28,7 @@ out_videos/
 runs/
 stubs/
 training/
+models/
 .installed.cfg
 *.egg
 MANIFEST
